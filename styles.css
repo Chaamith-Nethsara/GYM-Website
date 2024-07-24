@@ -1,0 +1,360 @@
+*{
+    margin:0;
+}
+
+
+.nav-container{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    
+    /*width:100vw; comment this one because there is an issue according to this one,when we add this one there might be an horizontal line bar */
+    height:80px;
+    
+
+}
+.nav-bar ul{
+    display:flex;
+    justify-content: space-between;
+    width:480px;
+    font-size:larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+    
+}
+
+.logo{
+    
+    font-size: 30px;
+    margin:20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo img {
+    width:80px;
+    height:80px;
+}
+
+li  {
+    list-style-type:none;
+}
+
+
+li a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    transition: 200ms ;
+    
+}
+
+li a:hover{
+   transform:scale(1.1);
+   color:rgb(176, 22, 37);
+   
+   
+}
+
+.button {
+    margin:20px; 
+    width:80px;
+    height:40px;
+    border-radius:10px;
+    color:white;
+    background-color: black;
+    border:none;
+    outline:none;
+    transition:200ms transform ease-in-out;
+}
+
+.button:hover{
+   cursor:pointer;
+    transform: scale(1.102);
+}
+
+.main{
+    display:flex;
+    justify-content:space-between;
+    padding-top: 50px;
+}
+.content{
+    padding-left: 40px;
+}
+.content h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.content p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.main .content a{
+    text-decoration:none;
+    font-style: italic;
+    
+}
+.main .content i {
+    font-size:30px;
+    padding-right: 20px;
+    transition:200ms transform ease-in-out;
+}
+
+.main .content i:hover{
+   cursor:pointer;
+    transform:scale(1.15);
+}
+
+.video{
+    width: 600px;
+    height:400px;
+
+}
+
+ section {
+    padding-top: 150px;
+    padding-left: 120px;
+    padding-right: 120px;
+ }
+
+ section.trainers h1,section.feature h1  {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+ }
+
+ section.trainers p,section.feature p {
+    font-size:20px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .div {
+    padding-left: 40px;
+    width:200px;
+    height:200px;
+    background-color: red;
+ }
+ .features-content {
+    display:grid;
+    gap:50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+ }
+
+ .features-content  h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    
+ }
+ .feature-images{
+    display:flex;
+ }
+
+ .image-long{
+    height:300px;
+ }
+
+ .feature-images img {
+    width: 220px;
+    height:140px;
+    margin: 10px;
+    border-radius: 10px;
+    transition:200ms transform ease-in-out;
+ }
+
+ .feature-images img:hover{
+    transform: scale(1.025); 
+ }
+
+ .features-content  div{
+    width:200px;
+ }
+ 
+ .features-content  div p {
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    text-align:justify;
+ }
+
+ .feature-container{
+    margin-top:80px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .feature-images{
+    width:450px;
+    height:400px;
+    
+ }
+
+ .trainer-container{
+   display: flex;
+   position: relative;
+ }
+
+ .trainer-container .trainer{
+   height:500px;
+   margin:50px;
+   border-radius: 5px;
+   box-shadow:5px 5px 20px black;
+   overflow:hidden;
+
+ }
+
+ .intro{
+   height:70px;
+   width:310px;
+   padding: 6px;
+   box-sizing: border-box;
+   position: absolute;
+   bottom:50px;
+   background-color: rgb(27,27,27,.5);
+   color:white;
+   transition: .5s;
+
+ }
+
+ .intro h1{
+   margin: 10px;
+   
+ }
+
+
+.trainer img {
+    height:500px;
+    width:350px;
+    border-radius: 3px;
+    transition: .5s;
+ }
+ .trainer p{
+   visibility: hidden;
+ }
+
+ .trainer:hover{
+   cursor:pointer;
+ }
+
+ .trainer:hover .intro{
+   height: 220px;
+   background-color: black;
+ }
+
+ .trainer:hover p{
+   visibility: visible;
+ }
+ .trainer:hover img{
+   transform:scale(1.05)
+ }
+
+ .map{
+   margin-top: 100px;
+}
+
+ .map h1{
+    text-align: center;
+ }
+
+ footer{
+    margin-top: 20px;
+ }
+
+ footer .footer-1{
+    height:120px;
+    text-align:center;
+    color:white;
+    background-color: rgb(38, 37, 37);
+ }
+
+ footer .footer-2 {
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    
+ }
+
+ footer .footer-2 .item{
+    width: 300px;
+    
+    
+ }
+ .membership h1{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   margin-bottom: 40px;
+ }
+
+ .membership .description-contanier {
+   display: flex;
+   justify-content: space-between;
+ }
+ .price-container{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .price-container div{
+   box-sizing: border-box;
+   width:350px;
+   height:450px;
+   padding: 20px;
+   margin-top: 20px;
+   border-radius:10px;
+   box-shadow:1px 1px  10px grey;
+   transition: 0.3s;
+   
+ }
+ .price-container div:hover{
+   cursor: pointer;
+   transform: scale(1.025);
+ }
+
+ .price-container .plan .title{
+   font-weight: bold;
+   font-size: large;
+ }
+
+.price-container .plan .price-tag{
+   font-size:large;
+   margin-bottom: 10px;
+   margin-top: 10px;
+ }
+
+ .price-container .plan .price {
+   font-size: 40px;
+  
+ }
+
+ .price-container .plan ul{
+   margin:20px;
+   
+   
+ }
+
+ .price-container .plan ul li{
+   list-style-type: circle;
+ }
+
+ .price-container .plan button{
+   
+      margin-left:45px;
+      margin-top: 100px; 
+    width:200px;
+    height:40px;
+    border-radius:10px;
+    color:white;
+    background-color: black;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    transition:200ms transform ease-in-out;
+    
+
+ }
+ .price-container .plan button:hover{
+   transform: scale(1.05);
+ }
+
+
