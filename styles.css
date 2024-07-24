@@ -111,6 +111,12 @@ li a:hover{
     height:400px;
 
 }
+.main .image{
+   padding-top:  160px;
+   
+   background-color: black;
+}
+
 
  section {
     padding-top: 150px;
